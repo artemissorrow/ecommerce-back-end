@@ -12,7 +12,7 @@ Tag.init(
       primaryKey: true,
       autoIncrement: true
     },
-    tagName: {
+    tag_name: {
       type: DataTypes.STRING
     }
   },
@@ -20,7 +20,7 @@ Tag.init(
     sequelize,
     timestamps: false,
     freezeTableName: true,
-    underscored: true,
+    // underscored: true,
     modelName: 'tag',
   }
 );
