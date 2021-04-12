@@ -1,4 +1,5 @@
 const { Model, DataTypes } = require('sequelize');
+const { toDefaultValue } = require('sequelize/types/lib/utils');
 
 const sequelize = require('../config/connection.js');
 
